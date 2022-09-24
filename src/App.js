@@ -1,17 +1,29 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-
+import {
+	BrowserRouter as Router,
+	Routes as Switch,
+	Route,
+} from "react-router-dom";
 import NavBar from "./components/common/NavBar/NavBar";
-import AnimatedRoutes from "./components/AnimatedRoutes";
 import Footer from "./components/common/Footer/Footer";
+
+import Home from "./views/Home/Home";
+import Prices from "./views/Prices/Prices";
+import AboutUs from "./views/AboutUs/AboutUs";
+import Contact from "./views/Contact/Contact";
 
 function App() {
 	return (
 		<div className='App'>
 			<Router>
 				<NavBar className='fixed-top' />
-				<AnimatedRoutes />
+				<Switch>
+					<Route path='/' element={<Home />} />
+					<Route path='/prices' element={<Prices />} />
+					<Route path='/aboutus' element={<AboutUs />} />
+					<Route path='/contact' element={<Contact />} />
+				</Switch>
 				<Footer />
 			</Router>
 		</div>
