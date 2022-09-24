@@ -1,13 +1,8 @@
 import "./App.css";
 import React from "react";
-import {
-	BrowserRouter as Router,
-	Routes as Switch,
-	Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/common/NavBar/NavBar";
 import Footer from "./components/common/Footer/Footer";
-
 import Home from "./views/Home/Home";
 import Prices from "./views/Prices/Prices";
 import AboutUs from "./views/AboutUs/AboutUs";
@@ -18,12 +13,12 @@ function App() {
 		<div className='App'>
 			<Router>
 				<NavBar className='fixed-top' />
-				<Switch>
+				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/prices' element={<Prices />} />
 					<Route path='/aboutus' element={<AboutUs />} />
 					<Route path='/contact' element={<Contact />} />
-				</Switch>
+				</Routes>
 				<Footer />
 			</Router>
 		</div>
