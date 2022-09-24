@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 10%;
+    color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    z-index: 30;
+}
+
+header a img{
+    max-width: 150px;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+.nav-a {
+        position: absolute;
+        right: 8%;
+    }
+}
+    
+
+
+
+nav a{
+    margin: 0 1.5rem;
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:rgba(214, 214, 214, 0.575);
+    padding: 5px 25px ;
+    border-radius: 15px;
+   
+    
+}
+
+
+
+nav a:hover {
+    color: rgb(100, 89, 110);
+    text-decoration: none;
+   
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(53, 53, 53);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    header nav {
+        z-index: 50;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color:rgb(214, 214, 214);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+        height: 100%;
+    }
+
+    .nav-a {
+       
+    }
+     
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+}
+
+.logo {
+    max-width: 150px;
+}
+
