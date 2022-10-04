@@ -18,10 +18,10 @@ function App() {
 			<NavBar className='fixed-top' />
 			<Router>
 				<Switch>
-					<Route path='./' element={<Home />} />
-					<Route path='./prices' element={<Prices />} />
-					<Route path='./aboutus' element={<AboutUs />} />
-					<Route path='./contact' element={<Contact />} />
+					<Route path='/' element={<Home />} />
+					<Route path='/prices' element={<Prices />} />
+					<Route path='/aboutus' element={<AboutUs />} />
+					<Route path='/contact' element={<Contact />} />
 				</Switch>
 			</Router>
 			<Footer />
