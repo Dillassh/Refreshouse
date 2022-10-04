@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import NavBar from "./components/common/NavBar/NavBar";
 import Footer from "./components/common/Footer/Footer";
-import Home from "./views/Home/Home";
-import Prices from "./views/Prices/Prices";
-import AboutUs from "./views/AboutUs/AboutUs";
-import Contact from "./views/Contact/Contact";
+import Home from "./views/Home";
+import Prices from "./views/Prices";
+import AboutUs from "./views/AboutUs";
+import Contact from "./views/Contact";
 
 function App() {
 	return (

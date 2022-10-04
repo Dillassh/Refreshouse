@@ -1,8 +1,9 @@
 import React from "react";
-import Footer from "../../components/common/Footer/Footer";
+
 import "./Home.css";
-import ContainerHome from "../../components/home/ContainerHome";
-import CarouselFade from "../../components/home/carousel/CarouselFade";
+import ContainerHome from "../components/home/ContainerHome";
+import CarouselFade from "../components/home/carousel/CarouselFade";
+import Footer from "../components/common/Footer/Footer";
 
 const Home = () => {
 	return (
