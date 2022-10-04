@@ -1,0 +1,60 @@
+
+
+.carousel-content {
+    height: 35rem;
+    object-fit: none;
+    
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+
+
+.carousel-control-next {
+    visibility: hidden;
+}
+
+.carousel-control-prev {
+    visibility: hidden;
+}
+
+.slide{
+    color: #1f1e1d;
+}
+
+.first-slide {
+    position: relative;
+    top: -32vh;
+    
+}
+
+.slide > button{
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 0.5px solid #1f1e1d;
+    margin: 15px 0
+}
+
+.slide > h3 {
+    font-size: 1.5vw;
+}
+
+.slide > button:hover{
+    opacity: 0.8;
+}
+
+.slide>button:active {
+    opacity: 1;
+}
+
+.second-slide, .third-slide {
+    position: relative;
+    right: -25vw;
+    top: -20vh
+}
+
+

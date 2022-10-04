@@ -3,3 +3,7 @@ div > img{
     padding-top: 80px;
 }
 
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #1f1e1d;
+}
