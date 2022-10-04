@@ -17,10 +17,10 @@ const NavBar = () => {
 				<img src={logo} alt='logo' />
 			</a>
 			<nav className='nav-a' ref={navRef}>
-				<a href='/'>ACASA</a>
-				<a href='/prices'>PRETURI</a>
-				<a href='/aboutus'>DESPRE NOI</a>
-				<a href='/contact'>Contact</a>
+				<a href='./'>ACASA</a>
+				<a href='./prices'>PRETURI</a>
+				<a href='./aboutus'>DESPRE NOI</a>
+				<a href='./contact'>Contact</a>
 
 				<button className='nav-btn nav-close-btn' onClick={showNavbar}>
 					<FaTimes />
