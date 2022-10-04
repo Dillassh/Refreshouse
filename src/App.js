@@ -20,8 +20,8 @@ function App() {
 				<Router>
 					<Switch>
 						<Route path='/' element={<Home />} />
-						<Route path='/prices' element={<Prices />} />
-						<Route path='/aboutus' element={<AboutUs />} />
+						<Route path='/preturi' element={<Prices />} />
+						<Route path='/despre' element={<AboutUs />} />
 						<Route path='/contact' element={<Contact />} />
 					</Switch>
 				</Router>
