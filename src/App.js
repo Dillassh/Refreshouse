@@ -14,18 +14,20 @@ import Contact from "./views/Contact/Contact";
 
 function App() {
 	return (
-		<div className='App'>
-			<NavBar className='fixed-top' />
-			<Router>
-				<Switch>
-					<Route path='/' element={<Home />} />
-					<Route path='/prices' element={<Prices />} />
-					<Route path='/aboutus' element={<AboutUs />} />
-					<Route path='/contact' element={<Contact />} />
-				</Switch>
-			</Router>
-			<Footer />
-		</div>
+		<>
+			<div className='App'>
+				<NavBar className='fixed-top' />
+				<Router>
+					<Switch>
+						<Route path='/' element={<Home />} />
+						<Route path='/prices' element={<Prices />} />
+						<Route path='/aboutus' element={<AboutUs />} />
+						<Route path='/contact' element={<Contact />} />
+					</Switch>
+				</Router>
+				<Footer />
+			</div>
+		</>
 	);
 }
 
