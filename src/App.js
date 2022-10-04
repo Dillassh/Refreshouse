@@ -15,16 +15,16 @@ import Contact from "./views/Contact/Contact";
 function App() {
 	return (
 		<div className='App'>
+			<NavBar className='fixed-top' />
 			<Router>
-				<NavBar className='fixed-top' />
 				<Switch>
-					<Route exact path='/' element={<Home />} />
-					<Route exact path='/prices' element={<Prices />} />
-					<Route exact path='/aboutus' element={<AboutUs />} />
+					<Route path='/' element={<Home />} />
+					<Route path='/prices' element={<Prices />} />
+					<Route path='/aboutus' element={<AboutUs />} />
 					<Route path='/contact' element={<Contact />} />
 				</Switch>
-				<Footer />
 			</Router>
+			<Footer />
 		</div>
 	);
 }
