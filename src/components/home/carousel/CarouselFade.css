@@ -58,3 +58,24 @@
 }
 
 
+@media (max-width: 768px) {
+
+   
+    
+    .first-slide {
+        top: -35vh;
+    }
+
+    .second-slide, .third-slide {
+        top: -35vh;
+        right: 0;
+    }
+
+    .second-slide>img {
+        margin-left: 50px;
+    }
+    
+    .slide > h3 {
+       font-size: 3.5vw; 
+    }
+}

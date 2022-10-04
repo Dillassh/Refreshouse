@@ -9,7 +9,7 @@ function CarouselFade() {
 		<Carousel fade>
 			<Carousel.Item>
 				<img
-					className='d-block carousel-content'
+					className='d-block carousel-content carousel-one'
 					src={produse}
 					alt='First slide'
 				/>
