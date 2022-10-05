@@ -64,8 +64,9 @@
 
     .carousel-content {
         width: 100%;
-        padding-top: 50px;
-        height: 35vh;
+        padding-top: 25px;
+        height: 30vh;
+        object-fit: contain;
     }
 
    .slide1 {
