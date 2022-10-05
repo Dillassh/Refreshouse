@@ -41,11 +41,12 @@ header a img{
 
 nav a{
     margin: 0 1.5rem;
+    font-size: 18px;
     color: rgb(53, 53, 53);
     text-decoration: none;
     text-transform: uppercase;
     /* background-color:rgba(214, 214, 214, 0.575); */
-    padding: 5px 25px ;
+    padding: 5px 20px ;
     border-radius: 15px;
    
     

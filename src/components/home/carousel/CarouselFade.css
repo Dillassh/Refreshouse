@@ -2,7 +2,14 @@
 
 .carousel-content {
     width: 35vw;
+
     
+}
+
+a {
+    color: #1f1e1d;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .carousel-caption {
@@ -16,6 +23,7 @@
     align-content: center;
     justify-content: center;
     height: 65vh;
+    background-color: white;
 
 }
 
@@ -37,7 +45,7 @@
 
 
 
-.slide > button{
+.slide > a{
     padding: 5px 25px;
     border-radius: 10px;
     background-color: aliceblue;
@@ -47,13 +55,16 @@
 
 .slide > h3 {
     font-size: 1.5vw;
+    padding: 20px;
 }
 
-.slide > button:hover{
+.slide > a:hover{
     opacity: 0.8;
+    color: #1f1e1d;
+    text-decoration: none;
 }
 
-.slide>button:active {
+.slide>a:active {
     opacity: 1;
 }
 

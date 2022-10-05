@@ -20,7 +20,7 @@ function CarouselFade() {
 						<Carousel.Caption>
 							<div className='first-slide slide'>
 								<h3>Produse profesionale create pentru nevoile tale.</h3>
-								<button>DESCOPERA</button>
+								<a href='https://refreshcleaning.ro/'>DESCOPERA</a>
 							</div>
 						</Carousel.Caption>
 					</div>
@@ -39,7 +39,7 @@ function CarouselFade() {
 						<Carousel.Caption>
 							<div className='second-slide slide'>
 								<h3>Servicii profesionale de curatare.</h3>
-								<button>DESCOPERA</button>
+								<a href='./prices'>DESCOPERA</a>
 							</div>
 						</Carousel.Caption>
 					</div>
@@ -58,7 +58,8 @@ function CarouselFade() {
 						<Carousel.Caption>
 							<div className='third-slide slide'>
 								<h3>Echipamente profesionale!</h3>
-								<button>CONTACTATI-NE</button>
+
+								<a href='./contact'>CONTACTEAZA-NE</a>
 							</div>
 						</Carousel.Caption>
 					</div>
