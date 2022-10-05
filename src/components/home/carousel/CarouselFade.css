@@ -63,9 +63,9 @@
 @media (max-width: 860px) {
 
     .carousel-content {
-        width: 100vw;
+        width: 100%;
         padding-top: 50px;
-       height: 35vh;
+        height: 35vh;
     }
 
    .slide1 {
