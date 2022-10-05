@@ -10,7 +10,7 @@ import "./Experience.css";
 const Experience = () => {
 	return (
 		<div className='cards-content row'>
-			<div className='col-md-4'>
+			<div className='col-md-4 '>
 				<div className='card-box'>
 					<img src={badge} alt='badge' />
 					<h3>Profesionalism</h3>
