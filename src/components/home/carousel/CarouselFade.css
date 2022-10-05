@@ -65,6 +65,7 @@
     .carousel-content {
         width: 100vw;
         padding-top: 50px;
+       height: 35vh;
     }
 
    .slide1 {
