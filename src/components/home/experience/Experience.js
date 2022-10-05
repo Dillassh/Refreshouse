@@ -63,7 +63,7 @@ const Experience = () => {
 			</div>
 
 			<div className='col-md-4'>
-				<div className='card-box'>
+				<div className='card-box bottom-card'>
 					<img src={rocket} alt='rocketSign' />
 					<h3>Curatare Rapida</h3>
 					<p>

@@ -13,14 +13,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #a9e7e9;
+    background-color: #d4e9f1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
     padding: 0 10%;
     color: rgb(53, 53, 53);
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     z-index: 30;
 }
 
@@ -42,12 +42,13 @@ header a img{
 nav a{
     margin: 0 1.5rem;
     font-size: 18px;
-    color: rgb(53, 53, 53);
+    color: rgba(53, 53, 53, 0.788);
     text-decoration: none;
     text-transform: uppercase;
     /* background-color:rgba(214, 214, 214, 0.575); */
     padding: 5px 20px ;
     border-radius: 15px;
+    
    
     
 }
@@ -55,8 +56,9 @@ nav a{
 
 
 nav a:hover {
-    color: rgb(100, 89, 110);
+    color: rgba(70, 70, 70, 0.651);
     text-decoration: none;
+ 
    
 }
 
@@ -66,11 +68,13 @@ header .nav-btn {
     background: transparent;
     border: none;
     outline: none;
-    color: rgb(53, 53, 53);
+    color: #2F89AE;
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
 }
+
+
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
@@ -91,7 +95,7 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color:rgb(214, 214, 214);
+        background-color:#d4e9f1;
         transition: 1s;
         transform: translateY(-100vh);
     }
@@ -101,9 +105,6 @@ header .nav-btn {
         height: 100%;
     }
 
-    .nav-a {
-       
-    }
      
     nav .nav-close-btn {
         position: absolute;
@@ -113,6 +114,7 @@ header .nav-btn {
 
     nav a {
         font-size: 1.5rem;
+        color: #2F89AE;
     }
 
 }
