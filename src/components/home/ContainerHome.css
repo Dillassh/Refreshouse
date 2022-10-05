@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 400px;
+    height: 50vh;
     padding-bottom: 50px;
 }
 
 .container > h1 {
     color: blueviolet;
 }
+

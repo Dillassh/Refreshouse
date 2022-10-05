@@ -1,35 +1,41 @@
 
 
 .carousel-content {
-    height: 35rem;
-    object-fit: none;
+    width: 35vw;
     
+}
+
+.carousel-caption {
+    position: initial;
+    right: 20px;
+}
+
+.slide1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 65vh;
+
 }
 
 .carousel-indicators {
     display: none;
 }
 
-
-
-
 .carousel-control-next {
-    visibility: hidden;
+    display: none;
 }
 
 .carousel-control-prev {
-    visibility: hidden;
+    display: none;
 }
 
 .slide{
     color: #1f1e1d;
 }
 
-.first-slide {
-    position: relative;
-    top: -32vh;
-    
-}
+
 
 .slide > button{
     padding: 5px 25px;
@@ -51,31 +57,38 @@
     opacity: 1;
 }
 
-.second-slide, .third-slide {
+
+
+
+@media (max-width: 860px) {
+
+    .carousel-content {
+        width: 100vw;
+        padding-top: 50px;
+    }
+
+   .slide1 {
+    flex-direction: column;
+    margin-top: 150px;
+    height: 40vh;
+   }
+
+   .slide {
     position: relative;
-    right: -25vw;
-    top: -20vh
-}
+    top: -40px;
+   }
 
+    div > img {
+        padding-top: 0;
+    }
 
-@media (max-width: 768px) {
-
-   
     
-    .first-slide {
-        top: -35vh;
-    }
-
-    .second-slide, .third-slide {
-        top: -35vh;
-        right: 0;
-    }
-
-    .second-slide>img {
-        margin-left: 50px;
-    }
     
     .slide > h3 {
        font-size: 3.5vw; 
+       padding-top: 50px;
     }
 }
+
+
+
